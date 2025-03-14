@@ -22,6 +22,7 @@ gem "solid_cable"
 
 gem 'bcrypt', '~> 3.1.7' # For hashing passwords securely
 gem 'jwt', '~> 2.2'      # For generating JSON Web Tokens
+gem 'pundit'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
